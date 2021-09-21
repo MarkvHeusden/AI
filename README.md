@@ -1,4 +1,3 @@
 # AI
-Project voor Artificial Intelligence
 
-hallo werkt dit
+Project voor Artificial Intelligence
