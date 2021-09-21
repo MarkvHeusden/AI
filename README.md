@@ -1,5 +1,5 @@
 # AI
-![Logo banner](.styles/images/PB_logo_banner)
+![Logo banner](.styles/images/PB_logo_banner.png)
 # Posture Bot
 
 Welcome! This is the repository for our Health Alert Network made for the subject AI. We worked on a robot that gives alerts about your position when your sitting behind a desk. 
