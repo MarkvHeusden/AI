@@ -8,6 +8,7 @@ let model, webcam, ctx, labelContainer, maxPredictions;
 //     alert("Let op je houding! Je zit teveel naar rechts.");  
 //  }
 const statusElement = document.querySelector('#status');
+// const startButton = document.querySelector('button');
 
 async function init() {
     const modelURL = URL + "model.json";
@@ -42,6 +43,8 @@ async function init() {
     for (let i = 0; i < maxPredictions; i++) { // and class labels
         labelContainer.appendChild(document.createElement("li"));
     }
+
+    // startButton.remove();
 }
 
 
@@ -72,7 +75,7 @@ async function predict() {
         labelContainer.childNodes[i].innerHTML = classPrediction;
 
         console.log("test");
-        if (prediction[0].probability.toFixed(2) >= 0.75) {
+        if (prediction[0].probability.toFixed(2) >= 0.95) {
             statusElement.classList.remove('bad');
             statusElement.classList.add('good');
         } else {
