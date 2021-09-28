@@ -12,7 +12,7 @@ body {
   place-items: center;
   overflow: hidden;
   font-family: "Arial", sans-serif;
-  background-color: #d6ece8;
+  background-color: #daebe8;
   color: #2f2d2b;
 }
 
@@ -20,12 +20,17 @@ section {
   width: 25rem;
   height: 40rem;
   background-color: #fbfbfb;
-  box-shadow: 0px 5px 15px 3px rgba(191, 191, 191, 0.2);
+  box-shadow: 0px 5px 15px 3px rgba(54, 111, 144, 0.1);
   border-radius: 0.5rem;
-  padding: 1.75rem;
+  padding: 2.25rem 1.75rem;
   overflow-x: hidden;
   overflow-y: scroll;
   text-align: center;
+}
+
+h1 {
+  color: rgb(54, 111, 144);
+  font-size: 2rem;
 }
 
 button {
@@ -51,8 +56,9 @@ button:hover {
 canvas[height="200"] {
   width: 100%;
   border-radius: 0.5rem;
-  box-shadow: 0px 5px 15px 3px rgba(191, 191, 191, 0.3);
+  box-shadow: 0px 5px 15px 3px rgba(54, 111, 144, 0.2);
   margin-bottom: 1.25rem;
+  margin-top: 2.25rem;
 }
 
 #status {
@@ -76,6 +82,8 @@ ul {
 
 li {
   list-style-type: none;
+  color: #366f90;
+  font-size: 1.15rem;
 }
 
 li::first-letter {

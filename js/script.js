@@ -8,7 +8,7 @@ let model, webcam, ctx, labelContainer, maxPredictions;
 //     alert("Let op je houding! Je zit teveel naar rechts.");  
 //  }
 const statusElement = document.querySelector('#status');
-// const startButton = document.querySelector('button');
+const startButton = document.querySelector('button');
 
 async function init() {
     const modelURL = URL + "model.json";
@@ -44,7 +44,7 @@ async function init() {
         labelContainer.appendChild(document.createElement("li"));
     }
 
-    // startButton.remove();
+    startButton.remove();
 }
 
 
