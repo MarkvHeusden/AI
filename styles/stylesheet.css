@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #fbfbfb;
+  color: #2f2d2b;
+  width: 375px;
+  height: 667px;
+  box-shadow: 0px 5px 15px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 1.25rem;
+  padding: 1.75rem;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-align: center;
+}
+
+button {
+  margin: 1.25rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: #fbfbfb;
+  box-shadow: 0px 5px 15px 3px rgba(0, 0, 0, 0.1);
+  padding: 1.25rem;
+}
+
+canvas {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+#label-container {
+  margin-top: 2rem;
+}

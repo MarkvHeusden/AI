@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Posture bot</title>
     <link rel="stylesheet" href="./styles/stylesheet.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/pose@0.8/dist/teachablemachine-pose.min.js"></script>
+    <script src="./js/script.js"></script>
   </head>
   <body>
     <div>Posture Bot</div>
     <button type="button" onclick="init()">Start Posture Bot</button>
     <div><canvas id="canvas"></canvas></div>
     <div id="label-container"></div>
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/pose@0.8/dist/teachablemachine-pose.min.js"></script>
-    <script src="./js/script.js"></script>
   </body>
 </html>
