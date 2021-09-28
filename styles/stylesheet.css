@@ -6,45 +6,78 @@
   box-sizing: border-box;
 }
 
-html {
+body {
   min-height: 100vh;
   display: grid;
   place-items: center;
   overflow: hidden;
+  font-family: "Arial", sans-serif;
+  background-color: #d6ece8;
+  color: #2f2d2b;
 }
 
-body {
-  font-family: sans-serif;
+section {
+  width: 25rem;
+  height: 40rem;
   background-color: #fbfbfb;
-  color: #2f2d2b;
-  width: 375px;
-  height: 667px;
-  box-shadow: 0px 5px 15px 3px rgba(0, 0, 0, 0.1);
-  border-radius: 1.25rem;
+  box-shadow: 0px 5px 15px 3px rgba(191, 191, 191, 0.2);
+  border-radius: 0.5rem;
   padding: 1.75rem;
-  position: relative;
   overflow-x: hidden;
   overflow-y: scroll;
   text-align: center;
 }
 
 button {
+  opacity: 1;
   margin: 1.25rem;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   border: none;
   background-color: #92a5e6;
-  box-shadow: 0px 5px 15px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 15px 3px rgba(146, 165, 230, 0.3);
   padding: 1.25rem;
   cursor: pointer;
   font-weight: 800;
   color: white;
+  font-size: 1rem;
+  outline: 0;
 }
 
-canvas {
+button:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+canvas[height="200"] {
   width: 100%;
   border-radius: 0.5rem;
+  box-shadow: 0px 5px 15px 3px rgba(191, 191, 191, 0.3);
+  margin-bottom: 1.25rem;
 }
 
-#label-container {
-  margin-top: 2rem;
+#status {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+#status.bad {
+  background-color: rgb(228, 70, 93);
+}
+
+#status.good {
+  background-color: rgb(81, 195, 104);
+}
+
+ul {
+  margin-top: 1.25rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+li::first-letter {
+  text-transform: capitalize;
 }
