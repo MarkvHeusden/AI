@@ -25,7 +25,7 @@ For a more comprehensive guide, please refer to our [wiki](https://github.com/Ma
 
 # Technologies
 
-PostureBot makes use of the following technologie:
+PostureBot makes use of the following technology:
 
 - [Teachable Machine](https://teachablemachine.withgoogle.com)
 
